@@ -116,6 +116,7 @@ public class BinUtils {
     }
 
     public static String charToHex(char entrada){
+
         int num = (Integer.parseInt(String.valueOf(entrada), 16));
         String binary = Integer.toBinaryString(num);
 
